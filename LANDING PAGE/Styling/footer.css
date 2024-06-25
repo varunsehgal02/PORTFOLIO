@@ -14,9 +14,20 @@
    
 }
 footer{
-    margin-bottom: 100px;
+   
+    position: relative;
+    bottom: 400px;
 }
 ul{
     display: inline-block;
     padding-right: 60px;
+}
+#list{
+    position: relative;
+    left: 935px;
+    bottom: 200px;
+}
+#list2{
+    position: relative;
+    right: 30px;
 }
