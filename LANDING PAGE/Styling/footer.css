@@ -22,6 +22,11 @@ ul{
     display: inline-block;
     padding-right: 60px;
 }
+
+.footer1:hover{
+        background-color: #95eab3;
+        transition: background .3s, color .3s;
+}
 #list{
     position: relative;
     left: 935px;

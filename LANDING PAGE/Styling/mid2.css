@@ -19,7 +19,7 @@
     width: 100%;
     height: calc(100% - 40px);
     position: relative;
-   overflow: hidden;
+   /* overflow: hidden; */
 
 }
 .slide-pic .slides .pic-slide{
@@ -28,10 +28,10 @@
     position: absolute;
     object-fit: cover;
 }
-.slide-pic .slides .pic-slide:not(.active){
+/* .slide-pic .slides .pic-slide:not(.active){
  top: 0;
  left: -100%;
-}
+} */
 span.next ,span.prev{
     position: absolute;
     top: 50%;

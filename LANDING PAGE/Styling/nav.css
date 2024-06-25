@@ -23,17 +23,48 @@ nav{
 .nav_text{
     
     display: inline-block;
+    color: black;
+    margin-right: 20px;
+}
+.link2{
+    color: black;
+    padding: 10px;
+    border-radius: 7px;
+}
+.link2:hover{
+    background-color: #64e892;
+    padding: 10px;
+    text-decoration: underline;
+    border-radius: 7px;
+    transition: background .3s, color .3s;
+}
+.link3{
+    color: black;
+    padding: 9px 20px ;
+    border-radius: 7px;
+}
+.link3:hover{
+    background-color: #95eab3;
+    padding: 9px 20px ;
+    border-radius: 7px;
+    transition: background .3s, color .3s;
+}
+.nav_text1{
+    
+    display: inline-block;
     margin: 0px 12px 0px 12px;
+    color: black;
+    
 }
 #logo{
-    margin-right: 32%;
+    margin-right: 29%;
     margin-left: 8%;
     font-size: 25px;
 }
 #start{
     background-color: #64e892;
     border-radius: 5px;
-    padding: 10px 25px 10px 25px;
+    padding: 9px 0.1px 9px 0.1px;
 }
 #text_nav{
     padding-top: 20px;

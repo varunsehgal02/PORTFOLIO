@@ -38,9 +38,25 @@ section{
     background-color: #023927;
     color: #64e892;
 }
+#see2{
+    color: #64e892;
+}
+#see:hover{
+    background-color:  rgba(2,57,39,0.85);
+    color: #64e892;
+    transition: background .3s, color .3s;
+}
 #get{
     background-color: #64e892;
     margin-left: 15px;
+}
+#get2{
+    color: black;
+}
+#get:hover{
+    background-color: #95eab3;
+    margin-left: 15px;
+    transition: background .3s, color .3s;
 }
 #img{
     background-image: url("../Image/Screenshot\ 2024-06-24\ 045420.png");
