@@ -1,0 +1,51 @@
+#pic-mid{
+    height: 500px;
+    width: 500px;
+    background-image: url("../Image/mid.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 250px;
+    display: inline-block;
+}
+#pic-mid12{
+    height: 500px;
+    width: 500px;
+    background-image: url("../Image/mid12.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 250px;
+    display: inline-block;
+    position: relative;
+    bottom: 400px;
+}
+#mid-div-text{
+    display: inline-block;
+}
+
+#mid-div-text-1{
+    display: inline-block;
+    height: 200px;
+    width: 500px;
+ 
+    
+}
+h2{
+    font-weight:400;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+#mid-div-text-2{
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+}
+#mid-div-text-222{
+    position: relative;
+    bottom: 600px;
+}
+
+#mid-div{
+    margin-top: 20px;
+}

@@ -5,12 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Styling/nav.css">
     <link rel="stylesheet" href="./Styling/mid.css">
+    <link rel="stylesheet" href="./Styling/mid2.css">
+    <link rel="stylesheet" href="./Styling/mid-div.css">
+    <link rel="stylesheet" href="./Styling/mid-div2.css">
+    <link rel="stylesheet" href="./Styling/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Landing page</title>
 </head>
 <body>
+    <script type="text/javascript">
+        let slide_pics=document.querySelectorAll('img');
+        let next= document.querySelector('.next');
+        let prev= document.querySelector('.prev');
+        let dots =document.querySelector('.dot');
+        var counter=0;
+
+               next.addEventListener('click', slideNext);
+           
+            function slideNext(){
+                
+                slideImages[counter].style.animation = 'next1 0.5s ease-in forwards';
+                    if(counter >= slideImages.length-1){
+                       counter = 0;
+                    }
+                    else{
+                       counter++;
+                    }
+                    slideImages[counter].style.animation = 'next2 0.5s ease-in forwards';
+                    }
+                    next.addEventListener('click', slideNext);
+           
+             next.addEventListener('click', slidePrev);
+           function slidePrev(){
+               
+               slideImages[counter].style.animation = 'Prev1 0.5s ease-in forwards';
+                   if(counter ==0){
+                      counter = slideImages.length-1;
+                   }
+                   else{
+                      counter--;
+                   }
+                   slideImages[counter].style.animation = 'prev2 0.5s ease-in forwards';
+                   }
+    </script>
     <header>
         <nav>
             <div class="nav_bar">
@@ -49,9 +88,117 @@
                         
                 </div>
           </div>
-          <div>
-            
+          <div id="mid2">
+            <div class="box1">
+
+            </div>
           </div>
     </section>
+    <section id="slides-s">
+        <div class="slide-pic">
+            <div class="slides">
+                <img class="pic-slide" src="./Image/pic1.png"height="700px" width="1000px">
+                <img class="pic-slide" src="./Image/pic2.png"height="700px" width="1000px">
+                <img class="pic-slide" src="./Image/pic3.png"height="700px" width="1000px">
+            </div>
+            <div class="button-slide">
+                <span class="next">&#10095</span>
+                <span class="prev">&#10094</span>
+            </div>
+        </div>
+    </section>
+    <div>
+        <p id="mid-t">Product Features</p>
+    </div>
+<section id="main-sec">
+    <section id="mid-div">
+        <div id="mid-div-text">
+            <div id="pic-mid">
+            </div>
+            
+                <div id="mid-div-text-1">
+                    <div id="mid-div-text-2">
+                         <h1>
+                             Cost Allocation
+                         </h1>
+                         <h2>
+                             Breakdown costs by any Kubernetes concepts, including deployment, service, namespace label, and more. View costs across multiple clusters in a single view or via a single API endpoint.
+                         </h2>
+                     </div>
+                </div>
+             
+        </div>
+    </section>
+    <section id="mid-div2">
+        <div id="mid-div-text">
+           
+            
+                <div id="mid-div-text-12">
+                    <div id="mid-div-text-22">
+                         <h1>
+                            Optimization Insights
+                         </h1>
+                         <h2>
+                            Receive dynamic recommendations for reducing spend without sacrificing performance. Prioritize key infrastructure or application changes for improving resource efficiency and reliability.
+                         </h2>
+                     </div>
+                </div>
+               
+                      <div id="pic-mid2">
+                     </div>
+            
+        </div>
+    </section>
+    <section id="mid-div">
+        <div id="mid-div-text">
+            <div id="pic-mid12">
+            </div>
+            
+                <div id="mid-div-text-1">
+                    <div id="mid-div-text-222">
+                         <h1>
+                            Unified Cost Monitoring
+                         </h1>
+                         <h2>
+                            Join Kubernetes costs with any external cloud services or infrastructure spend to have a complete picture. External costs can be shared and then attributed to any Kubernetes concept for a comprehensive view of spend.
+                        </h2>
+                     </div>
+                </div>
+             
+        </div>
+    </section>
+</section>
+<footer>
+    <div id="line"></div>
+    <div id="footer-footer">
+        <div>
+            <div class="nav_text footerlogo" id="logo">Kubecost</div>
+             <div id="Terms">Terms | Privacy Policy</div>
+        </div>
+        <div>
+            <ul>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Press</li>
+                <li>We're Hiring!</li>
+            </ul>
+            <ul>
+                <li>Blog</li>
+                <li>Docs</li>
+                <li>Tutorials</li>
+                <li>Partners</li>
+                <li>Status</li>
+            </ul>
+            <ul>
+                <li>team@xyz.com</li>
+                <li>123-456-7890</li>
+                <li><pre> </pre></li>
+                <li><pre> </pre></li>
+                <li><pre> </pre></li>
+            </ul>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

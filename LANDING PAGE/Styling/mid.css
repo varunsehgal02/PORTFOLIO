@@ -55,6 +55,10 @@ section{
 }
 #main-mid-div{
     display: inline-block;
-    
+    height: 750px;
     width: 100%;
+}
+#main-sec{
+    position: relative;
+    right: 50px;
 }
