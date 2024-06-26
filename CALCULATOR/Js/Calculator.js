@@ -18,13 +18,4 @@ buttons.forEach((item)=>{
         }
     }
 })
-const theme = document.querySelector('.theme');
-const calculator = document.querySelector('.calculator');
-const toggleIcon = document.querySelector('.t-icon');
-let isDark =true;
-theme.onclick = () => {
-    calculator.classList.toggle('dark');
-    theme.classList.toggle('active');
-    isDark =! isDark;
-}
 

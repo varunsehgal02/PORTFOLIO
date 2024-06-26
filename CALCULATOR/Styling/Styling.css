@@ -34,12 +34,7 @@ a{
     cursor: pointer;
     z-index: 1;
 }
-.theme .active{
-    color: #333;
-}
-.theme .active ::before{
-    background-color: #FFF;
-}
+
 .theme ::before{
     content: '';
     height: 30px;
@@ -83,7 +78,6 @@ button:hover{
 button#equal{
     height: 130px;
 }
-/* light */
 .calcaulator{
     background-color: #FFF;
 }
@@ -98,15 +92,11 @@ button#equal{
     background-color: #c3eaff;
     color: #000;
 }
-.calcaulator button.btn-o{
-    background-color: #ffd0fd;
-    color: #f967f3;
-}
+
 .calcaulator button.btn-equal{
     background-color: #adf9e7;
     color: #000;
 }
-/* dark */
 
 .calcaulator.dark{
     background-color: #071115;
