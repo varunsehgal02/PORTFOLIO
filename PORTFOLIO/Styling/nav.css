@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+    color: white;
+    font-size: 14.4px;
+
+    font-family: "Fira Code", monospace;
+    
+}
+body{
+    height: 2000px;
+}
+.main-nav{
+    height: 51px;
+    width: 100%;
+    border-bottom: solid #1e1e1e 1px;
+    display: inline-block;
+}
+/* .icon{
+    height: 15px;
+    width: 17px;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+pre{
+    display: inline-block;
+}
+/* #code{
+    background-image: url("../Image/1.png");
+} */
+.box-nav{
+    padding: 15px 17px 16px 17px;
+    display: inline-block;
+}
+.box-nav:hover{
+    background-color: #1e1e1e;
+}
+.box-nav2{
+    padding: 15px 13px 16px 13px;
+    display: inline-block;
+}
+.box-nav2:hover{
+    background-color: #1e1e1e;
+}
+#name{
+    margin-left: 110px;
+    font-weight: 600;
+}
+.text{
+    font-weight: lighter;
+}
+#Skills{
+    margin-left: 130px;
+}
+#search{
+    margin-left: 110px;
+    position: relative;
+    left:8.5px;
+}

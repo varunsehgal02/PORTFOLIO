@@ -3,63 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Styling/home.css">
+    <link rel="stylesheet" href="./Styling/nav.css">
+    <link rel="stylesheet" href="./Styling/about.css">
+    <link rel="stylesheet" href="./Styling/skills.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
 </head>
 <body>
+    <!-- Nav -->
     <nav>
-        <div id="main-nav">
-          <div id="sf">
-            <div class="cen-n" id="name">
-                <div class="icon" id="icon1">
+        <div class="main-nav">
+            <a href="#">
+                 <div class="box-nav" id="name" >
+                    <i class="fa-solid fa-code"></i>
+                        Varun Sehgal
+                  </div>
+             </a>
+             <a href="#">
+                 <div class="box-nav text" id="Skills">
+                     <i class="fa-solid fa-diamond"></i>
+                      Skills
+                 </div>
+             </a>
+             <a href="#">
+                 <div class="box-nav text" >
+                     <i class="fa-solid fa-diagram-project"></i>
+                      Projects
+                 </div>
+              </a>
+              <a href="#">
+                 <div class="box-nav text" >
+                     <i class="fa-solid fa-boxes-stacked"></i>
+                      Experience
+                 </div>
+              </a>
+              <a href="#">
+                <div class="box-nav text" >
+                    <i class="fa-solid fa-graduation-cap"></i>
+                     Education
                 </div>
-                <div id="s-name">
-                    Varun Sehgal
-                </div>
-            </div>
-            <div class="cen-n" id="skills">
-                <div class="icon" id="icon2">
-                </div>
-                <div class="name-sub" >
-                    Skills
-                </div>
-            </div>
-            <div class="cen-n" id="projects">
-                <div class="icon" id="icon3"></div>
-                <div class="name-sub" >
-                    Projects
-                </div>
-            </div>
-            <div class="cen-n" id="Experience">
-                <div class="icon" id="icon4"></div>
-                <div class="name-sub"> 
-                    Experience
-                </div>
-            </div>
-            <div class="cen-n" id="Education">
-                <div class="icon" id="icon5"></div>
-                <div class="name-sub">
-                    Education
-                </div>
-            </div>
-            <div class="cen-n" id="Resume">
-                <div class="icon" id="icon6"></div>
-                <div class="name-sub">
-                    Resume
-                </div>
-            </div>
-            <div class="cen-n2" id="search">
-                <div class="icon" id="icon7"></div>
-               
-            </div>
-            <div class="cen-n2" id="night-day">
-                <div class="icon" id="icon8"></div>
-            </div>
-          </div>
+             </a>
+             <a href="#">
+                     <div class="box-nav text" >
+                        <i class="fa-solid fa-file"></i>
+                         Resume
+                    </div>
+            </a>
+            <a href="#">
+                    <div class="box-nav2" id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div> 
+            </a>
+            <a href="#">
+                 <div class="box-nav2" >
+                     <i class="fa-solid fa-moon"></i>
+                 </div>
+            </a>
         </div>
     </nav>
+    <!-- About -->
+    <section>
+     <div class="about">
+            <div class="box1">
+                <h1 class="big-text">Varun Sehgal,</h1>
+                <p class="b-text">Hi! I'm a B.Tech student in Computer Science and Engineering. I love building websites and apps as a full stack and app developer. I've worked on many projects in college, which helped me get better at coding and solving problems.
+    
+                    I enjoy working with others, especially in team projects and hackathons, where I can learn and share ideas. I'm always excited to learn about new technologies and keep up with the latest trends in tech. My goal is to work on cool projects that make a real impact and solve real-world problems. I'm looking forward to making a positive difference with my skills.
+                </p>
+                <div class="icon-a">
+                     <a href="#"><i class="fa-brands fa-github"></i></a>
+                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                 </div>
+   
+            </div>
+            
+                 <div class="box2">
+
+                 </div>
+           
+        </div>
+    </section>
+    <!-- Skills -->
+    <section>
+        <div id="skill-1o">
+            <h1 class="skill-1">Skills</h1>
+        </div>
+        <!-- line -->
+        <div class="line">
+            <div class="line1"></div>
+            <div class="line-word">Programming Languages</div>
+            <div class="line2"></div>
+        </div>
+        <!-- box -->
+        <div class="box-r">
+            <div class="box-s box01" id="Js">
+                Javascript
+            </div>
+            <div class="box-s  box02"  >
+                Python
+            </div>
+        </div>
+             <!-- line -->
+             <div class="line">
+                <div class="line1"></div>
+                <div class="line-word">Markup & Style</div>
+                <div class="line2" id="line-l"></div>
+            </div>
+            <!-- box -->
+            <div class="box-r" >
+                <div class="box-s box01">
+                    HTML
+                </div>
+                <div class="box-s  box02" >
+                    CSS
+                </div>
+                <div class="box-s box03" >
+                    React Native
+                </div>
+                
+            </div>
+         <!-- line -->
+         <div class="line">
+            <div class="line1"></div>
+            <div class="line-word">Libraries</div>
+            <div class="line2"  id="line-ll"></div>
+        </div>
+        <!-- box -->
+        <div class="box-r" >
+            <div class="box-s box01">
+                React Js
+            </div>
+            <div class="box-s  box02" >
+                Npm
+            </div>
+           
+            
+        </div>
+   
+    </section>
 </body>
 </html>

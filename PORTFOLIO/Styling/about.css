@@ -1,0 +1,30 @@
+.about{
+   
+    height: 300px;
+    width: 80%;
+    margin-top: 240px;
+    margin-left: 120px;
+}
+.box1{
+    height: 300px;
+    width: 70%;
+    float: left;
+    
+}
+.big-text{
+    font-size: 55px;
+}
+.b-text{
+    font-weight: lighter;
+    font-size: 17px;
+    opacity: 80%;
+}
+.box2{
+    height: 300px;
+    width: 30%;
+    float: right;
+    border: red solid 1px;
+}
+.icon-a{
+    margin-top: 15px;
+}
