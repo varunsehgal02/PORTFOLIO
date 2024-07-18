@@ -7,18 +7,22 @@
     background-color: black;
     color: white;
     font-size: 14.4px;
-
     font-family: "Fira Code", monospace;
-    
+}
+a{
+    background-color: transparent;
 }
 body{
-    height: 2000px;
+    height: 3300px;
 }
 .main-nav{
     height: 51px;
     width: 100%;
     border-bottom: solid #1e1e1e 1px;
     display: inline-block;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
 }
 /* .icon{
     height: 15px;
@@ -29,6 +33,7 @@ body{
 pre{
     display: inline-block;
 }
+
 /* #code{
     background-image: url("../Image/1.png");
 } */
@@ -54,7 +59,7 @@ pre{
     font-weight: lighter;
 }
 #Skills{
-    margin-left: 130px;
+    margin-left: 500px;
 }
 #search{
     margin-left: 110px;

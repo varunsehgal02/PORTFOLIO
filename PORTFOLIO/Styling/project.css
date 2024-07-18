@@ -1,0 +1,60 @@
+.project{
+    border: #1e1e1e 1px solid;
+    border-radius: 15px;
+    height: 470px;
+    width: 400px;
+    display: inline-block;
+    
+}
+.p-main-div{
+ display: flex;
+ justify-content: center;
+ gap: 30px;
+ margin-top: 100px;
+ width: 100%;
+}
+.p-line{
+    border: #1e1e1e solid 1px;
+    width: 350px;
+    height: 0px;
+    margin-bottom: 17px;
+}
+.logo-p{
+    height: 55px;
+    width: 55px;
+    border: blue solid 1px;
+    margin-bottom: 32px;
+}
+.text-p{
+    font-size: 19px;
+    margin-bottom: 17px;
+}
+.p-s{
+    margin: 27px ;
+}
+.text-s-p{
+    font-weight: 100;
+    opacity: 80%;
+    
+}
+.space-p{
+    font-style: italic;
+    margin-bottom: 35px;
+}
+.text-box{
+    height: 100px;
+    overflow-y: visible;
+}
+.space-l{
+    margin-top: 57px;
+}
+.box-p-main{
+    display: inline-block;
+}
+.box-p{
+    border: #1e1e1e solid 1px;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    border-radius: 8px;
+}
