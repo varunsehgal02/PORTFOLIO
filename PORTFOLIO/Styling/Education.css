@@ -25,7 +25,8 @@
     width: 85%;
     height: 800px;
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
+    overflow: hidden;   
 }
 .line-e{
     display: inline-block;
@@ -36,6 +37,7 @@
     border-radius: 18px;
     border:solid 1px #1e1e1e;
     display: inline-block;
+    overflow: hidden;
 }
 
 .in-small-box{
@@ -43,10 +45,10 @@
     
 }
 .img-logo{
-    border: blue 1px solid;
     height: 60px;
     width: 60px;
-    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
    
 }
 .text-e{
@@ -67,6 +69,7 @@
     font-weight: 200;
     opacity: 80%;
     margin-top: 5px;
+    background: transparent;
 }
 .tag-e{
     margin-top: 20px;
@@ -78,6 +81,12 @@
     display: inline-block;
     font-weight: 200;
     text-align: center;
+   
+}
+.tag-e2:hover{
+    border: white 1px solid;
+    transition: all 0.6s;
+   
 }
 #C-e{
     width: 30px;
@@ -117,4 +126,43 @@
 #rn-e{
     margin-top: 10px;
     width: 130px;
+}
+#juet{
+    background-image: url(../Image/juet.webp);
+    background-size: 65px;
+}
+#skr{
+    background-image: url(../Image/Screenshot\ 2024-07-19\ 032606.png);
+}
+.glow{
+    backdrop-filter: blur(45px);
+    overflow: hidden;
+    position: relative;
+    background: transparent;
+   
+    
+}
+.glow::before{
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%,-50%);
+    height:850px;
+    width: 850px;
+    background: radial-gradient(var(--clar),transparent,transparent) ;
+    transition:0.5s ,top 0s,left 0s ;
+    opacity: 0;
+}
+.glow:hover::before{
+    opacity: 32%;
+  
+}
+.glow::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0,0.4);
+   
 }

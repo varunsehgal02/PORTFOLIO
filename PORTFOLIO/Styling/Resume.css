@@ -23,4 +23,5 @@
     background-color: #1e1e1e;
     opacity: 100%;
     cursor: pointer;
+    transition: all 0.6s;
 }

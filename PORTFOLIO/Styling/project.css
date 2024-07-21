@@ -22,8 +22,19 @@
 .logo-p{
     height: 55px;
     width: 55px;
-    border: blue solid 1px;
     margin-bottom: 32px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+#codm{
+    background-image: url(../Image/logo_codm.png);
+}
+#page-1{
+    background-image: url("../Image/1458523.png");
+}
+#cal{
+    background-image: url("../Image/calculator.png");
 }
 .text-p{
     font-size: 19px;
@@ -35,11 +46,12 @@
 .text-s-p{
     font-weight: 100;
     opacity: 80%;
-    
+    background: transparent;
 }
 .space-p{
     font-style: italic;
     margin-bottom: 35px;
+    background: transparent;
 }
 .text-box{
     height: 100px;
@@ -57,4 +69,64 @@
     width: 35px;
     display: inline-block;
     border-radius: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.link2-1{
+    border-radius: 8px;
+}
+.box-p:hover{
+    border: 1px solid white;
+    transition: all 0.6s;
+    transform: scale(1.01);
+    border-radius: 8px;
+}
+.link2-1:hover{
+    border: 1px solid white;
+    border-radius: 16px;
+    transform: scale(1.02);
+    transition: all 0.6s;
+}
+.html-s{
+    background-image: url("../Image/html.png");
+    background-position: top;
+}
+.css-s{
+    background-image: url("../Image/css.png");
+    background-size: 50px;
+    background-position: center;
+}
+.js-s{
+    background-image: url("../Image/js.png");
+}
+.glow{
+    backdrop-filter: blur(25px);
+    overflow: hidden;
+    position: relative;
+    background: transparent;
+}
+.glow::before{
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%,-50%);
+    width: 850px;
+    height:850px;
+    background: radial-gradient(var(--clar),transparent,transparent) ;
+    transition:0.5s ,top 0s,left 0s ;
+    opacity: 0;
+
+}
+.glow:hover::before{
+    opacity: 33%;
+  
+}
+.glow::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0,0.4);
+   
 }

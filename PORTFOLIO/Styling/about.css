@@ -23,8 +23,18 @@
     height: 300px;
     width: 30%;
     float: right;
-    border: red solid 1px;
+    display: flex;
+    justify-content: center;
 }
 .icon-a{
     margin-top: 15px;
+}
+.pic-p{
+    margin: 20px;
+    border: #1e1e1e solid 3px;
+    height: 85%;
+    width: 67%;
+    background-image: url("../Image/2.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
