@@ -7,7 +7,6 @@
 }
 .skill-1o{
     width: 100%;
-   
 }
 .line{
     display: inline-block;
@@ -47,6 +46,7 @@
 }
 .box-r{
     display: inline-block;
+    
 }
 .box-s{
     display: inline-block;
@@ -60,7 +60,10 @@
     background-repeat: no-repeat;
     background-size:185px;
     background-position: right;
-
+   
+}
+#col{
+    background: linear-gradient(to right,yellow, blue);
 }
 .box-s:hover{
     transform: scale(1.04);
@@ -69,6 +72,7 @@
 }
 .box01{
     margin-left: 122px;
+    
 }
 .box02{
     margin-left: 12px;
@@ -84,11 +88,15 @@
 
 }
 #Js{
-    background-image: url('../Image/js.png');
+    background-image: url('../Image/images.png');
+    background-size:100px;
+    background-position-x: 240px;
+    background-position-y: -27px;
 }
 #Py{
-    background-image: url("../Image/python.png");
-    background-size:165px;
+    background-image: url("../Image/py1.png");
+    background-size:80px;
+    background-position-x: 250px;
 }
 #html{
     background-image: url("../Image/html.png");
@@ -109,36 +117,4 @@
 #npm{
     background-image: url("../Image/npm.webp");
     background-size:165px;
-}
-.glow{
-    backdrop-filter: blur(25px);
-    overflow: hidden;
-    position: relative;
-    background: transparent;
-   
-    
-}
-.glow::before{
-    content: '';
-    position: absolute;
-    top: var(--y);
-    left: var(--x);
-    transform: translate(-50%,-50%);
-    height:650px;
-    width: 650px;
-    background: radial-gradient(var(--clar),transparent,transparent) ;
-    transition:0.5s ,top 0s,left 0s ;
-    opacity: 0;
-}
-.glow:hover::before{
-    opacity: 60%;
-  
-}
-.glow::after{
-    content: '';
-    position: absolute;
-    inset: 2px;
-    border-radius: 18px;
-    background: rgba(30, 30, 30,0.4);
-   
 }

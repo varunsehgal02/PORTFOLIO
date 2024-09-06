@@ -1,8 +1,9 @@
 #Terms{
     font-weight: lighter;
-    margin-top: 150px;
+    margin-top: 140px;
     margin-left: 110px;
 }
+
 #line{
     height: 0;
     width: 90%;
@@ -16,7 +17,7 @@
 footer{
    
     position: relative;
-    bottom: 400px;
+    bottom: 350px;
 }
 ul{
     display: inline-block;

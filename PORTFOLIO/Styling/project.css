@@ -116,10 +116,11 @@
     background: radial-gradient(var(--clar),transparent,transparent) ;
     transition:0.5s ,top 0s,left 0s ;
     opacity: 0;
-
+    
 }
 .glow:hover::before{
     opacity: 33%;
+    
   
 }
 .glow::after{
