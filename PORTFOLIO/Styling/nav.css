@@ -50,9 +50,11 @@ pre{
     background-color: #1e1e1e;
 }
 #name{
-    margin-left: 110px;
+    margin-left: 90px;
     font-weight: 600;
+
 }
+
 .text{
     font-weight: lighter;
 }
